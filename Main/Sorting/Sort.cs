@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures_Algorithms
 {
+    // TODO: Make generic
     class Sort
     {
         public static void BubbleSort(int[] arr)
@@ -19,9 +20,9 @@ namespace DataStructures_Algorithms
 
             for (int i = 1; i < arr.Length; i++)
             {
-                for(int j = 0; j < arr.Length - 1; j++)
+                for (int j = 0; j < arr.Length - 1; j++)
                 {
-                    if(arr[j] > arr[j + 1])
+                    if (arr[j] > arr[j + 1])
                     {
                         Swap(ref arr[j], ref arr[j + 1]);
                     }
@@ -40,13 +41,13 @@ namespace DataStructures_Algorithms
         public static void SelectionSort(int[] arr)
         {
             Console.WriteLine("Unsorted: ");
-            for(int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write(" " + arr[i]);
             }
 
             Console.WriteLine();
-            
+
             if (arr.Length > 0)
             {
                 for (int i = 0; i < arr.Length - 2; i++)
@@ -72,16 +73,18 @@ namespace DataStructures_Algorithms
             Console.WriteLine();
         }
 
+        
+
         public static void InsertionSort(int[] arr)
         {
             Console.WriteLine("Unsorted: ");
-            for(int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write(" " + arr[i]);
             }
             Console.WriteLine();
 
-            for(int i = 0; i <= arr.Length - 1; i++)
+            for (int i = 0; i <= arr.Length - 1; i++)
             {
 
 
@@ -98,7 +101,7 @@ namespace DataStructures_Algorithms
             }
 
             Console.WriteLine("Sorted: ");
-            for(int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write(" " + arr[i]);
             }

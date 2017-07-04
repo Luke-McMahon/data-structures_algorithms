@@ -42,16 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assignment3.cs" />
-    <Compile Include="DoublyLinkedList.cs" />
-    <Compile Include="DoublyLinkedListDemo.cs" />
-    <Compile Include="DoublyLinkedNode.cs" />
-    <Compile Include="LinkedList.cs" />
-    <Compile Include="LinkedListDemo.cs" />
-    <Compile Include="Node.cs" />
+    <Compile Include="Assignments\Assignment3.cs" />
+    <Compile Include="Lists\DoublyLinkedList.cs" />
+    <Compile Include="Lists\DoublyLinkedListDemo.cs" />
+    <Compile Include="Nodes\DoublyLinkedNode.cs" />
+    <Compile Include="Lists\LinkedList.cs" />
+    <Compile Include="Lists\LinkedListDemo.cs" />
+    <Compile Include="Nodes\Node.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Sort.cs" />
+    <Compile Include="Sorts\Sort.cs" />
+    <Compile Include="Stack\Queue.cs" />
+    <Compile Include="Stack\Stack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

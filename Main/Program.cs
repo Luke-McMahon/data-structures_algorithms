@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using DataStructures_Algorithms.Assignments;
 
 namespace DataStructures_Algorithms
 {
@@ -12,7 +11,7 @@ namespace DataStructures_Algorithms
     {
         static void Main(string[] args)
         {
-
+            LinkedListDemo.Init();
 
             Console.ReadKey();
         }

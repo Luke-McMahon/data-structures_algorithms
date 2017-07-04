@@ -6,34 +6,39 @@ using System.Threading.Tasks;
 
 namespace DataStructures_Algorithms
 {
-    class Node
+    class Node<T>
     {
-        private int data;
-        private Node nextNode;
+        private T data;
+        private Node<T> nextNode;
 
-        public Node(int data)
+        public Node(T data)
         {
             this.data = data;
         }
 
-        public int GetData()
+        public T GetData()
         {
             return data;
         }
 
-        public Node GetNextNode()
+        public Node<T> GetNextNode()
         {
             return nextNode;
         }
 
-        public void SetData(int data)
+        public void SetData(T data)
         {
             this.data = data;
         }
 
-        public void SetNextNode(Node nextNode)
+        public void SetNextNode(Node<T> nextNode)
         {
             this.nextNode = nextNode;
+        }
+
+        public override string ToString()
+        {
+            return "Data: " + this.data;
         }
     }
 }

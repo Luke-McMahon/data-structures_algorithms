@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4C0357BD-A33B-444A-92FD-3E6EB83251FE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DataStuctures_Algorithms</RootNamespace>
-    <AssemblyName>DataStuctures_Algorithms</AssemblyName>
+    <RootNamespace>DataStructures_Algorithms</RootNamespace>
+    <AssemblyName>DataStructures_Algorithms</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assignment3.cs" />
+    <Compile Include="DoublyLinkedList.cs" />
+    <Compile Include="DoublyLinkedListDemo.cs" />
+    <Compile Include="DoublyLinkedNode.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="LinkedListDemo.cs" />
     <Compile Include="Node.cs" />

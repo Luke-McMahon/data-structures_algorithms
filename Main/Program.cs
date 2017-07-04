@@ -11,8 +11,7 @@ namespace DataStructures_Algorithms
     {
         static void Main(string[] args)
         {
-            LinkedListDemo.Init();
-
+            DoublyLinkedListDemo.Init();
             Console.ReadKey();
         }
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DataStructures_Algorithms
 {
     // TODO: Make generic
-    class Sort
+    public class Sort
     {
         public static void BubbleSort(int[] arr)
         {

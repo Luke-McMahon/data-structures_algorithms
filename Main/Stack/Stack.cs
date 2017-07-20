@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace DataStructures_Algorithms.Stack
 {
-    class Stack<T>
+    internal class Stack<T>
     {
-        int maxSize = 9;
-        T[] stackArray;
-        int top = -1;
+        private const int MAX_SIZE = 9;
+        private T[] stackArray;
+        private int top = -1;
 
         public void Init()
         {
-            stackArray = new T[maxSize];
+            stackArray = new T[MAX_SIZE];
         }
         
         public void Push(T data)

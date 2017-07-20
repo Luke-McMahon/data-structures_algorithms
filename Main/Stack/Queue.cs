@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace DataStructures_Algorithms.Stack
 {
-    class Queue<T>
+    internal class Queue<T>
     {
 
-        int maxSize = 8;
-        T[] items;
-        int head = -1;
-        int tail = -1;
-        int numOfItems = 0;
+        //private int maxSize = 8;
+        private readonly T[] items;
+        private int head = -1;
+        private int tail = -1;
+        private int numOfItems = 0;
 
         public Queue()
         {

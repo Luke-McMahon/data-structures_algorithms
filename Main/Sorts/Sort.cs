@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataStructures_Algorithms
+namespace DataStructures_Algorithms.Sorts
 {
     // TODO: Make generic
     public class Sort
@@ -12,9 +12,9 @@ namespace DataStructures_Algorithms
         public static void BubbleSort(int[] arr)
         {
             Console.WriteLine("Unsorted: ");
-            for (int i = 0; i < arr.Length; i++)
+            foreach (int i in arr)
             {
-                Console.Write(" " + arr[i]);
+                Console.Write(" " + i);
             }
             Console.WriteLine();
 
@@ -30,9 +30,9 @@ namespace DataStructures_Algorithms
             }
 
             Console.WriteLine("Sorted: ");
-            for (int i = 0; i < arr.Length; i++)
+            foreach (int i in arr)
             {
-                Console.Write(" " + arr[i]);
+                Console.Write(" " + i);
             }
 
             Console.WriteLine();
@@ -41,9 +41,9 @@ namespace DataStructures_Algorithms
         public static void SelectionSort(int[] arr)
         {
             Console.WriteLine("Unsorted: ");
-            for (int i = 0; i < arr.Length; i++)
+            foreach (int i in arr)
             {
-                Console.Write(" " + arr[i]);
+                Console.Write(" " + i);
             }
 
             Console.WriteLine();
@@ -64,9 +64,9 @@ namespace DataStructures_Algorithms
                 }
 
                 Console.WriteLine("Sorted: ");
-                for (int i = 0; i < arr.Length; i++)
+                foreach (int i in arr)
                 {
-                    Console.Write(" " + arr[i]);
+                    Console.Write(" " + i);
                 }
             }
 
@@ -78,13 +78,13 @@ namespace DataStructures_Algorithms
         public static void InsertionSort(int[] arr)
         {
             Console.WriteLine("Unsorted: ");
-            for (int i = 0; i < arr.Length; i++)
+            foreach (int i in arr)
             {
-                Console.Write(" " + arr[i]);
+                Console.Write(" " + i);
             }
             Console.WriteLine();
 
-            for (int i = 0; i <= arr.Length - 1; i++)
+            for (var i = 0; i <= arr.Length - 1; i++)
             {
 
 
@@ -101,9 +101,9 @@ namespace DataStructures_Algorithms
             }
 
             Console.WriteLine("Sorted: ");
-            for (int i = 0; i < arr.Length; i++)
+            foreach (int i in arr)
             {
-                Console.Write(" " + arr[i]);
+                Console.Write(" " + i);
             }
 
             Console.WriteLine();

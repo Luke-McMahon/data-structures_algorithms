@@ -28,8 +28,8 @@ namespace DataStructures_Algorithms
         {
             Random rand = new Random();
             int a = rand.Next(7, 15);
-            int[] arr = new int[a];
-            for (int i = 0; i < a; i++)
+            var arr = new int[a];
+            for (var i = 0; i < a; i++)
             {
                 arr[i] = rand.Next(20);
             }
